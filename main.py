@@ -27,7 +27,7 @@ full_name_element.send_keys("Jayshree Rajesh Mishra")
 contact_number_element = WebDriverWait(driver, 30).until(
     EC.visibility_of_element_located((By.XPATH, "//input[@jsname='YPqjbf' and @aria-labelledby='i5']"))
 )
-contact_number_element.send_keys("9766082151")
+contact_number_element.send_keys("1234567890") #I am not sharing my real contact number on github repo for obvious reasons
 
 #Email ID
 email_id_element = WebDriverWait(driver, 30).until(
@@ -39,13 +39,13 @@ email_id_element.send_keys("jayshreemishra197@gmail.com")
 full_address_element = WebDriverWait(driver, 30).until(
     EC.visibility_of_element_located((By.XPATH, "//textarea[@jsname='YPqjbf' and @aria-labelledby='i13']"))
 )
-full_address_element.send_keys("Near Sunny Palace, Adarsh Nagar, Khamgaon")
+full_address_element.send_keys("my_address") #I am not sharing my real address on github repo for obvious reasons
 
 # Pin Code
 pin_code_element = WebDriverWait(driver, 30).until(
     EC.visibility_of_element_located((By.XPATH, "//input[@jsname='YPqjbf' and @aria-labelledby='i17']"))
 )
-pin_code_element.send_keys("444303")
+pin_code_element.send_keys("123456") #I am not sharing my real pin code on github repo for obvious reasons
 
 # Date of Birth
 date_of_birth_element = WebDriverWait(driver, 30).until(
